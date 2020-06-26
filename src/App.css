@@ -1,38 +1,144 @@
-.App {
+.header-color{
+  background: #355c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #355c7d, #6c5b7b, #c06c84); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+
+}
+
+.welcome-g{
+  text-align: center;
+  background: #355c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #355c7d, #6c5b7b, #c06c84); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+   
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+.avatar-img{
+  height:300px;
+  padding-top:5 em;
+  display: block;
+  text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+   border-radius:200px;
+}
+
+.banner-t{
+  background-color: black;
+  opacity:0.8;
+  width:295%;
+  margin:20px;
+  border-radius:10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner-t h1{
+  font-size: 30px;
+  font-weight: bold;
+  color:white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner-t hr{
+  border-top: 5px dotted white;
+  width:50%;
+  margin:auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.banner-t p{
+color:white;
+font-size: 25px;
+padding:1em;
+}
+
+
+
+.social-links{
+  color:white;
+  font-size: 5px;
+  padding:8px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-linkedin {
+  
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.fa-github {
+  
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-google-plus{
+  
+  color: white;
 }
+
+.fa-facebook{
+  
+  color: white;
+}
+
+.projects-grid{
+  display:flex;
+ 
+  
+}
+
+.button-d{
+  background-color: #555555;
+}
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+.contact-grid h2{
+  font-family: 'Anton',sans-serif;
+}
+.contact-grid p{
+  font-family: 'Oxygen',sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr{
+ border-top: 5px dotted black;
+ width:50%;
+ margin:auto;
+}
+
+
